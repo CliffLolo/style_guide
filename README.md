@@ -1,13 +1,13 @@
 # style_guide
 
 ```
-mpharma
+
+xxxxxxx
 ├── README.md
 ├── analysis
 ├── data
 ├── dbt_project.yml
 ├── macros
-│   └── cents_to_dollars.sql
 ├── models
 │   ├── intermediate
 │   │   └── finance
@@ -21,22 +21,21 @@ mpharma
 │   │   └── marketing
 │   │       ├── _marketing__models.yml
 │   │       └── customers.sql
-│   ├── staging
-│   │   ├── sap
-│   │   │   ├── _sap__docs.md
-│   │   │   ├── _sap__models.yml
-│   │   │   ├── _jaffle_shop__sources.yml
-│   │   │   ├── base
-│   │   │   │   ├── base_sap__customers.sql
-│   │   │   │   └── base_sap__deleted_customers.sql
-│   │   │   ├── stg_sap__customers.sql
-│   │   │   └── stg_sap__orders.sql
-│   │   └── mongodb
-│   │       ├── _mongodb__models.yml
-│   │       ├── _mongodb__sources.yml
-│   │       └── stg_mongodb__payments.sql
-│   └── utilities
-│       └── all_dates.sql
+│   └── staging
+│      ├── sap
+│      │   ├── _sap__docs.md
+│      │   ├── _sap__models.yml
+│      │   ├── _sap__sources.yml
+│      │   ├── base
+│      │   │   ├── base_sap__customers.sql
+│      │   │   └── base_sap__deleted_customers.sql
+│      │   ├── stg_sap__customers.sql
+│      │   └── stg_sap__orders.sql
+│      └── mongodb
+│          ├── _mongbo__models.yml
+│          ├── _mongbo__sources.yml
+│          └── stg_mongbo__payments.sql
+│  
 ├── packages.yml
 ├── snapshots
 └── tests
