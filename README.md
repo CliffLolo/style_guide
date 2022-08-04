@@ -42,7 +42,7 @@ xxxxxxx
 ```
 NOTE: All data sources and models must be documented from the very begining of development. This will help us achieve an optimal data culture.
 
-Data documentation is the dolution not something that results from the solution.
+Data documentation is the solution not something that results from the solution.
 ## Models
 - All model names must be unique
 - Staging models must be of the form ```stg_[source]__[entity]s.sql```
